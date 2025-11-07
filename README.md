@@ -59,6 +59,41 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
+Pacotes de intalação para rodar o LAravel MVC
+PRÉ-REQUISITOS que tem que Instalar em sua maquina
+
+XAMPP- servidor interno
+NODE.JS
+NPM
+MySQL
+
+
+
+Como Criar um Projeto em Laravel(COMANDOS)?
+
+No terminal do VScode. ver se o COMPOSER esta instalado e qual a versão.composer
+
+COMANDOS...
+
+composer --version
+INSTALAÇÃO DO LARAVEL
+composer create-project laravel/laravel .
+
+Obs: Ir na pasta .env   Para configurar e adicionar informações como: Nome do Projet(Pasta)
+No APP_NAME= adicionar (nome do projeto/pasta)
+No APP_CHANNEL= adicionar (stack)
+
+
+Como rodar o projeto em Laravel(Comando no terminal)?
+php artisa serve 
+
+
+obs: Ao instalar em sua maquina o projeto Via Git HUb. adicionar a pasta .env (para o uso do banco de dados de acorso com as configurações de sua ,maquin) e Digistar o comando
+
+
+composer install
+Para instalar o restante das dependencias
+
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 =======
 # GesTreinLaravel
